@@ -127,8 +127,24 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     .container{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row .col{
+        width: 100%;
+    }
+
+    .row .col:not(:last-child){
+        margin-bottom: 80px;
     }
 }
