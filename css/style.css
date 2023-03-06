@@ -146,4 +146,13 @@ img {
     .row .col:not(:last-child){
         margin-bottom: 80px;
     }
+
+    .why-us{
+        background-color: #222;
+        padding: 4rem 0;
+    }
+
+    .steps, .why-us{
+        margin-bottom: 0;
+    }
 }
